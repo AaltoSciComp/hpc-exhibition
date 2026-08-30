@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>dgx04 — Aalto Scientific Computing DGX Exhibition</title>
+<meta name="description" content="dgx04 is a retired Aalto University NVIDIA DGX-1 supercomputer node on public display by Aalto Scientific Computing. See when it's next shown, and explore the online version of its info sheet.">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<svg id="bg-svg" aria-hidden="true"></svg>
+
+<nav id="site-nav">
+  <a class="nav-brand" href="#top">
+    <svg viewBox="0 0 96 107" role="img" aria-label="Aalto Scientific Computing logo">
+      <path d="M 48.00,15.00 L 67.05,26.00 L 67.05,48.00 L 48.00,59.00 L 28.95,48.00 L 28.95,26.00 Z" fill="rgba(255,255,255,0.92)" stroke="rgba(255,255,255,0.65)" stroke-width="2.5"/>
+      <path d="M 28.95,48.00 L 48.00,59.00 L 48.00,81.00 L 28.95,92.00 L 9.89,81.00 L 9.89,59.00 Z" fill="rgba(255,255,255,0.92)" stroke="rgba(255,255,255,0.65)" stroke-width="2.5"/>
+      <path d="M 67.05,48.00 L 86.11,59.00 L 86.11,81.00 L 67.05,92.00 L 48.00,81.00 L 48.00,59.00 Z" fill="rgba(255,255,255,0.92)" stroke="rgba(255,255,255,0.65)" stroke-width="2.5"/>
+      <text x="48" y="41" text-anchor="middle" font-family="Inter, sans-serif" font-weight="700" font-size="16" fill="#1a1a2e">A</text>
+      <text x="28.95" y="74" text-anchor="middle" font-family="Inter, sans-serif" font-weight="700" font-size="16" fill="#1a1a2e">S</text>
+      <text x="67.05" y="74" text-anchor="middle" font-family="Inter, sans-serif" font-weight="700" font-size="16" fill="#1a1a2e">C</text>
+    </svg>
+    <span>Aalto Scientific Computing</span>
+  </a>
+  <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation">&#9776;</button>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#top">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#info-sheet">Info Sheet</a></li>
+  </ul>
+</nav>
+
+<section id="top">
+  <div class="wrap">
+    <h1 class="hero-title">dgx04: an Aalto supercomputer, on public display</h1>
+    <p class="hero-sub">A real NVIDIA DGX-1 — one node from Aalto University's Triton supercomputer — taken apart so you can see how a high-performance AI computer actually works.</p>
+    <img class="hero-img" src="assets/img/dgx04-hero.jpg" alt="The dgx04 server disassembled on a table, showing its motherboard tray, copper GPU heatsinks, and drives">
+
+    <div class="card event-card">
+      <div class="eyebrow">Next display</div>
+      <h3 id="event-title">Loading event details…</h3>
+      <div class="event-meta">
+        <span>📅 <span id="event-date"></span></span>
+        <span>📍 <span id="event-location"></span></span>
+      </div>
+      <a class="btn" id="event-link" href="#" target="_blank" rel="noopener">Event details</a>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <div class="card">
+      <h2>Who we are</h2>
+      <p>We are <strong>Aalto Scientific Computing (ASC)</strong>, the team behind <strong>Triton</strong>, Aalto University's high-performance computing (HPC) cluster. We build and run the shared supercomputing infrastructure that Aalto researchers use every day for simulation, data analysis, and AI.</p>
+      <p>At public events like Aalto Day One, we bring out retired hardware — like dgx04, an old Triton node — so anyone can open it up, touch the parts, and see what's actually inside the computers that power modern research and AI.</p>
+
+      <div class="photo-grid">
+        <img src="assets/img/dgx04-booth-1.jpg" alt="The dgx04 booth outdoors at Aalto Day One 2025, with the disassembled server and printed info sheets laid out on a table">
+        <img src="assets/img/dgx04-booth-2.jpg" alt="Visitors examining the open dgx04 server and its copper GPU heatsinks at the Aalto Day One 2025 booth">
+      </div>
+      <p class="photo-caption">Aalto Day One, September 2025</p>
+
+      <h3>Our partners</h3>
+      <p>Aalto's supercomputing work happens alongside our national and European partners:</p>
+      <div class="partner-links">
+        <a class="btn-outline" href="https://lumi-ai-factory.eu/" target="_blank" rel="noopener">LUMI AI Factory</a>
+        <a class="btn-outline" href="http://csc.fi/" target="_blank" rel="noopener">CSC – IT Center for Science</a>
+      </div>
+      <p style="margin-top:1.25rem;">Want to know more about us? Visit the <a href="https://scicomp.aalto.fi/about/" target="_blank" rel="noopener">Aalto Scientific Computing about page</a>.</p>
+    </div>
+  </div>
+</section>
+
+<section id="info-sheet">
+  <div class="wrap">
+    <div class="card">
+      <h2>Info sheet: exploring dgx04</h2>
+      <p>This is the online version of the printout displayed next to the server at the booth.</p>
+      <div class="pdf-link-row">
+        <a class="btn-outline" href="materials/dgx04-exhibition.pdf" target="_blank" rel="noopener">Download the original info sheet (PDF)</a>
+      </div>
+    </div>
+
+    <div class="card spec-card">
+      <h3>A Triton high-performance computer (HPC) cluster node</h3>
+      <p>This is dgx04, an old server from the Aalto University's Triton supercomputer. It is an "NVIDIA DGX-1", a type of computer designed for Artificial Intelligence. When they came out in 2016, one of these computers cost about 150000 USD! This unit was bought by Aalto University in 2018, retired in 2025, and today you can explore its parts here.</p>
+      <p>A supercomputer is not one giant computer, but many smaller computers (<em>nodes</em>) working together. They form a "high-performance" computing (HPC) cluster with exceptionally fast interconnects between the compute nodes, which allows calculations to be distributed across many nodes.</p>
+      <p>Supercomputers power many of today's scientific breakthroughs, and the AI services you use every day also run on similar large computing clusters like the one here at Aalto.</p>
+    </div>
+
+    <div class="card spec-card">
+      <h3>Computer architecture</h3>
+      <p>Despite how it may look, fundamentally this server computer has hardware compatible with any normal desktop or laptop computer: you could take a normal Linux distribution, install it here, and it would mostly work.</p>
+
+      <h3>Rack mount case</h3>
+      <p>The rack-mount system allows a high density of computers. Servers exist in height units of a "U" (44.45mm). They slide in on rails, so that each computer can easily be independently removed, maintained, and replaced. The cases often allow some parts (like hard drives or power supplies) to be replaced without removing the whole node from the rack itself. For more maintenance, the nodes can be partially slid out, maintained, and slid back in, without having to disconnect any cables or fully remove it from the rack.</p>
+
+      <h3>Cooling fans</h3>
+      <p>This box has four cooling fans that pull air in through the front (with the hard disks), through the GPUs and processors, and then out the back. Server rooms are arranged with a cold aisle/hot aisle system, with cooling supply / outtake on the respective aisles.</p>
+      <p>These make a LOT of noise when on. You wouldn't run this in your home. Hearing protection is required in the machine room.</p>
+    </div>
+
+    <div class="card spec-card">
+      <h3>You can touch this!</h3>
+      <p>This is old hardware and you can touch it. Be careful of sharp edges and components or getting your fingers greasy. Can you manage to do the following:</p>
+      <ul>
+        <li>Insert/remove the GPU tray</li>
+        <li>Insert/remove the main motherboard tray</li>
+        <li>Open the top panel and remove a fan</li>
+        <li>Remove/insert a hard drive</li>
+        <li>Remove/insert memory (advanced, if someone guides you)</li>
+      </ul>
+      <p>Please only touch if your hands are very clean.</p>
+    </div>
+
+    <div class="card spec-card">
+      <h3>CPUs</h3>
+      <p>This server has two main processors. (Intel architecture, 2x20 core Xeon E5-2698 v4 @ 2.2GHz) with 20 cores each for a total of 40 cores. An average laptop may have four cores. More cores mean it can do more things in parallel, like having 40 students working at the same time instead of just 4. In order to use GPUs efficiently, there must be plenty of CPUs available to feed the data into the GPUs.</p>
+
+      <h3>Memory</h3>
+      <p>This is error correcting (ECC) computer memory (DDR4 standard), but it has 16 total slots, as opposed to the 2-4 slots found in most home computers. The 16 slots held a total of 512GB when it was new. Memory has been removed to replace broken memory in other computers - we scavenge parts to keep things running as long as possible to minimize electronic waste. Error correcting memory means that it can detect random bit flips. With this much memory always under heavy use, this ensures integrity of results.</p>
+      <p>The "2133" refers to the memory speed of 1067MHz - in addition to size, the memory bandwidth and latency are important considerations for speed.</p>
+    </div>
+
+    <div class="card spec-card">
+      <h3>Graphical Processing Units (GPUs)</h3>
+      <p>This server has 8 Nvidia V100 GPUs with the Volta architecture, with 32 GB of GPU memory. The first Volta products were announced in 2017. The basic idea is like a desktop GPU for graphics, but these don't have graphics outputs and are optimized for computation. Each GPU can handle 5120 compute threads in parallel.</p>
+      <p>GPUs have been heavily used for computation (especially machine learning and AI) since highly parallelized graphics rendering and many computations are both linear algebra. Is it really a "G"PU if it's not used for graphics? They can also be called "General Purpose GPUs" (GPGPUs), but everyone just says "GPU".</p>
+
+      <h3>Infiniband network interface</h3>
+      <p>Infiniband is a high-bandwidth, low-latency network protocol. Both of these properties are important: if multiple compute nodes are communicating, latency (the time between a message being sent and being received) can be a significant bottleneck. When using a connection with low enough latency, well-optimized code can essentially allow one computer to access another computer's memory (not exactly, but something like that).</p>
+      <p>Note the Infiniband interfaces are located close to the GPUs.</p>
+    </div>
+
+    <div class="card spec-card">
+      <h3>Ethernet network interface</h3>
+      <p>This server has two normal Ethernet network connections. Ethernet is standard and efficient, but for high-performance computation the overhead of the operating system handling the network stack is too much and Infiniband is used instead. We have configured our cluster so that all regular network traffic goes over Infiniband, and Ethernet is mainly used for booting up.</p>
+
+      <h3>Management network interface</h3>
+      <p>There's a separate network interface for management - this connects to a dedicated onboard management computer that controls the main computer's hardware. This allows us to reboot, power cycle, adjust the boot parameters, and see the raw operating system console for maintenance without having to go to the machine room. With hundreds of nodes in Triton, multiple nodes need rebooting or fixing per day.</p>
+
+      <h3>Standard computer connectors</h3>
+      <p>You can see some standard connectors back here, like VGA (monitor) and USB (keyboard, mouse). These are used for emergency local access when the machine is so stuck that no other network connections work. They aren't connected to anything in normal operation - all daily management is done over the network, even normal crash recovery.</p>
+    </div>
+
+    <div class="card spec-card">
+      <h3>Hard drives</h3>
+      <p>The DGX-1 was sold with 8TB of SSD disk space across 4 disks. Machine learning training requires a lot of data, and one of the bottlenecks can be getting it from the storage to the GPUs. Fast SSDs on the same computer allow huge data transfer rates and random access for randomizing the order for training purposes.</p>
+      <p>We are very careful about data security. All hard drives were securely erased before being taken for this display.</p>
+
+      <h3>Hard drive cages</h3>
+      <p>The front of the server has 20 hard drive slots. They are hot-swappable. With RAID (redundant arrays of independent disks) setup, data is stored with redundancy across disks. If a disk breaks, it can be removed, replaced, and the disk array rebuilt (data copied back to the new disk) to restore redundancy.</p>
+
+      <h3>4x power supplies</h3>
+      <p>The DGX-1 had 4 x 1600W power supplies, with a max power usage of 3200W. Power supplies are redundant: if one broke, you could remove it and replace it without turning off the computer. If you ran this in your home, each power supply would have to be plugged into a separate circuit.</p>
+      <p>In Finland, waste heat is often used for district heating. In 2026, Triton will move to a facility that will recover waste heat for use in Otaniemi.</p>
+    </div>
+
+    <div class="card spec-card">
+      <h3>Triton's hardware lifespan</h3>
+      <p>Triton is special in that we use hardware as long as possible to minimize waste. When needed, we buy new hardware. Old hardware stays as replacement parts, until all parts are broken.</p>
+      <p>How old is the Triton cluster? It's been around since 2009 or so. But none of the original hardware exists (except possibly some scattered power cables and the like). Triton is a Ship of Theseus.</p>
+
+      <h3>Human maintenance</h3>
+      <p>Who keeps the computers running? Humans! There is often hardware maintenance work (replacing broken components), which doesn't take too long. Setting everything up and configuring it is quite a challenge, too. We do a lot of work to make sure that the researchers who rely on these systems have a quick and easy job learning and using them.</p>
+      <p>If you want a career in HPC, a good way to start is understanding all the parts in your own computer.</p>
+    </div>
+
+    <div class="card spec-card">
+      <h3>Hardware progress over time</h3>
+      <p>Compare dgx04 to a H200 GPU server from 2025:</p>
+      <div class="table-scroll">
+        <table>
+          <caption>dgx04 (2018) vs. an H200 GPU server (2025)</caption>
+          <thead>
+            <tr><th scope="col">Category</th><th scope="col">2018 (dgx04)</th><th scope="col">2025 (H200 server)</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Processor</th><td>2x 20 core<br>2.2GHz<br>Xeon E5-2698 v4</td><td>2x 32 core<br>2.8GHz<br>Xeon Platinum 8562Y+</td></tr>
+            <tr><th scope="row">GPU</th><td>8x V100 GPUs, each with:<br>32 GB memory<br>900 GB/s mem bandwidth<br>14 teraflops<br>250 Watts power</td><td>8x H200 GPUs, each with:<br>141 GB memory<br>4.8 TB/s mem bandwidth<br>4 petaflops<br>700 Watts power</td></tr>
+            <tr><th scope="row">Memory</th><td>512GB<br>DDR4-2133</td><td>2048GB<br>DDR5-5600</td></tr>
+            <tr><th scope="row">Local storage</th><td>7TB SSD</td><td>20 TB SSD</td></tr>
+            <tr><th scope="row">Infiniband connection</th><td>100 Gbit/s</td><td>400 Gbit/s</td></tr>
+            <tr><th scope="row">Physical size</th><td>3U</td><td>6U</td></tr>
+            <tr><th scope="row">Mass</th><td>60 kg</td><td>114 kg</td></tr>
+            <tr><th scope="row">Max power</th><td>3.2 kW</td><td>11.5 kW</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="pdf-link-row">
+      <a class="btn-outline" href="materials/dgx04-exhibition.pdf" target="_blank" rel="noopener">Download the original info sheet (PDF)</a>
+    </div>
+  </div>
+</section>
+
+<section id="footer">
+  <div class="wrap card footer-card">
+    <div class="footer-links">
+      <a href="https://scicomp.aalto.fi/about/" target="_blank" rel="noopener">Aalto Scientific Computing</a>
+      <a href="https://lumi-ai-factory.eu/" target="_blank" rel="noopener">LUMI AI Factory</a>
+      <a href="http://csc.fi/" target="_blank" rel="noopener">CSC</a>
+    </div>
+    <p>&copy; 2026 Aalto Scientific Computing. Released under the MIT License.</p>
+    <p>Background design inspired by the <a href="https://github.com/eglerean/asc_background_generator" target="_blank" rel="noopener">ASC background generator</a>.</p>
+  </div>
+</section>
+
+<script src="js/background.js"></script>
+<script src="js/config.js"></script>
+<script src="js/nav.js"></script>
+</body>
+</html>
