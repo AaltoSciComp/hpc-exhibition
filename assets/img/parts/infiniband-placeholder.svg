@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Placeholder illustration of an InfiniBand cable and port">
+  <rect width="240" height="240" rx="18" fill="#eef0f6"/>
+  <rect x="34" y="96" width="88" height="48" rx="6" fill="#ffffff" stroke="#1a1a2e" stroke-width="4"/>
+  <rect x="46" y="108" width="10" height="24" fill="#1a1a2e"/>
+  <rect x="64" y="108" width="10" height="24" fill="#1a1a2e"/>
+  <rect x="82" y="108" width="10" height="24" fill="#1a1a2e"/>
+  <rect x="100" y="108" width="10" height="24" fill="#1a1a2e"/>
+  <path d="M122 120 H150" stroke="#ff8a3d" stroke-width="6" stroke-linecap="round"/>
+  <rect x="150" y="92" width="56" height="56" rx="8" fill="#ffffff" stroke="#ff8a3d" stroke-width="4"/>
+  <rect x="164" y="106" width="28" height="28" rx="4" fill="#ff8a3d"/>
+  <text x="120" y="196" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="15" font-weight="600" fill="#3a3a52">InfiniBand port</text>
+  <text x="120" y="216" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="12" fill="#3a3a52">photo coming soon</text>
+</svg>

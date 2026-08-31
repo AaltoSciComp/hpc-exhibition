@@ -94,12 +94,26 @@
       <h3>Computer architecture</h3>
       <p>Despite how it may look, fundamentally this server computer has hardware compatible with any normal desktop or laptop computer: you could take a normal Linux distribution, install it here, and it would mostly work.</p>
 
-      <h3>Rack mount case</h3>
-      <p>The rack-mount system allows a high density of computers. Servers exist in height units of a "U" (44.45mm). They slide in on rails, so that each computer can easily be independently removed, maintained, and replaced. The cases often allow some parts (like hard drives or power supplies) to be replaced without removing the whole node from the rack itself. For more maintenance, the nodes can be partially slid out, maintained, and slid back in, without having to disconnect any cables or fully remove it from the rack.</p>
+      <div class="spec-topic">
+        <button class="part-thumb" type="button" data-full="assets/img/parts/rack-mount-case.jpg" data-caption="Rack mount case (placeholder — real dgx04 photo coming soon)">
+          <img src="assets/img/parts/rack-mount-case.jpg" alt="Rows of servers mounted in 19-inch data center racks" loading="lazy">
+        </button>
+        <div class="spec-topic-body">
+          <h3>Rack mount case</h3>
+          <p>The rack-mount system allows a high density of computers. Servers exist in height units of a "U" (44.45mm). They slide in on rails, so that each computer can easily be independently removed, maintained, and replaced. The cases often allow some parts (like hard drives or power supplies) to be replaced without removing the whole node from the rack itself. For more maintenance, the nodes can be partially slid out, maintained, and slid back in, without having to disconnect any cables or fully remove it from the rack.</p>
+        </div>
+      </div>
 
-      <h3>Cooling fans</h3>
-      <p>This box has four cooling fans that pull air in through the front (with the hard disks), through the GPUs and processors, and then out the back. Server rooms are arranged with a cold aisle/hot aisle system, with cooling supply / outtake on the respective aisles.</p>
-      <p>These make a LOT of noise when on. You wouldn't run this in your home. Hearing protection is required in the machine room.</p>
+      <div class="spec-topic">
+        <button class="part-thumb" type="button" data-full="assets/img/parts/cooling-fans.jpg" data-caption="Cooling fans (placeholder — real dgx04 photo coming soon)">
+          <img src="assets/img/parts/cooling-fans.jpg" alt="Close-up of a rack-mount server's internal cooling fan and heat sink" loading="lazy">
+        </button>
+        <div class="spec-topic-body">
+          <h3>Cooling fans</h3>
+          <p>This box has four cooling fans that pull air in through the front (with the hard disks), through the GPUs and processors, and then out the back. Server rooms are arranged with a cold aisle/hot aisle system, with cooling supply / outtake on the respective aisles.</p>
+          <p>These make a LOT of noise when on. You wouldn't run this in your home. Hearing protection is required in the machine room.</p>
+        </div>
+      </div>
     </div>
 
     <div class="card spec-card">
@@ -116,46 +130,116 @@
     </div>
 
     <div class="card spec-card">
-      <h3>CPUs</h3>
-      <p>This server has two main processors. (Intel architecture, 2x20 core Xeon E5-2698 v4 @ 2.2GHz) with 20 cores each for a total of 40 cores. An average laptop may have four cores. More cores mean it can do more things in parallel, like having 40 students working at the same time instead of just 4. In order to use GPUs efficiently, there must be plenty of CPUs available to feed the data into the GPUs.</p>
+      <div class="spec-topic">
+        <button class="part-thumb" type="button" data-full="assets/img/parts/cpu.jpg" data-caption="CPUs (placeholder — real dgx04 photo coming soon)">
+          <img src="assets/img/parts/cpu.jpg" alt="An Intel Xeon-branded processor chip with its metal heat spreader" loading="lazy">
+        </button>
+        <div class="spec-topic-body">
+          <h3>CPUs</h3>
+          <p>This server has two main processors. (Intel architecture, 2x20 core Xeon E5-2698 v4 @ 2.2GHz) with 20 cores each for a total of 40 cores. An average laptop may have four cores. More cores mean it can do more things in parallel, like having 40 students working at the same time instead of just 4. In order to use GPUs efficiently, there must be plenty of CPUs available to feed the data into the GPUs.</p>
+        </div>
+      </div>
 
-      <h3>Memory</h3>
-      <p>This is error correcting (ECC) computer memory (DDR4 standard), but it has 16 total slots, as opposed to the 2-4 slots found in most home computers. The 16 slots held a total of 512GB when it was new. Memory has been removed to replace broken memory in other computers - we scavenge parts to keep things running as long as possible to minimize electronic waste. Error correcting memory means that it can detect random bit flips. With this much memory always under heavy use, this ensures integrity of results.</p>
-      <p>The "2133" refers to the memory speed of 1067MHz - in addition to size, the memory bandwidth and latency are important considerations for speed.</p>
+      <div class="spec-topic">
+        <button class="part-thumb" type="button" data-full="assets/img/parts/memory.jpg" data-caption="Memory (placeholder — real dgx04 photo coming soon)">
+          <img src="assets/img/parts/memory.jpg" alt="A computer RAM memory module" loading="lazy">
+        </button>
+        <div class="spec-topic-body">
+          <h3>Memory</h3>
+          <p>This is error correcting (ECC) computer memory (DDR4 standard), but it has 16 total slots, as opposed to the 2-4 slots found in most home computers. The 16 slots held a total of 512GB when it was new. Memory has been removed to replace broken memory in other computers - we scavenge parts to keep things running as long as possible to minimize electronic waste. Error correcting memory means that it can detect random bit flips. With this much memory always under heavy use, this ensures integrity of results.</p>
+          <p>The "2133" refers to the memory speed of 1067MHz - in addition to size, the memory bandwidth and latency are important considerations for speed.</p>
+        </div>
+      </div>
     </div>
 
     <div class="card spec-card">
-      <h3>Graphical Processing Units (GPUs)</h3>
-      <p>This server has 8 Nvidia V100 GPUs with the Volta architecture, with 32 GB of GPU memory. The first Volta products were announced in 2017. The basic idea is like a desktop GPU for graphics, but these don't have graphics outputs and are optimized for computation. Each GPU can handle 5120 compute threads in parallel.</p>
-      <p>GPUs have been heavily used for computation (especially machine learning and AI) since highly parallelized graphics rendering and many computations are both linear algebra. Is it really a "G"PU if it's not used for graphics? They can also be called "General Purpose GPUs" (GPGPUs), but everyone just says "GPU".</p>
+      <div class="spec-topic">
+        <button class="part-thumb" type="button" data-full="assets/img/parts/gpu.jpg" data-caption="Graphical Processing Units (GPUs) (placeholder — real dgx04 photo coming soon)">
+          <img src="assets/img/parts/gpu.jpg" alt="An NVIDIA Tesla datacenter GPU card" loading="lazy">
+        </button>
+        <div class="spec-topic-body">
+          <h3>Graphical Processing Units (GPUs)</h3>
+          <p>This server has 8 Nvidia V100 GPUs with the Volta architecture, with 32 GB of GPU memory. The first Volta products were announced in 2017. The basic idea is like a desktop GPU for graphics, but these don't have graphics outputs and are optimized for computation. Each GPU can handle 5120 compute threads in parallel.</p>
+          <p>GPUs have been heavily used for computation (especially machine learning and AI) since highly parallelized graphics rendering and many computations are both linear algebra. Is it really a "G"PU if it's not used for graphics? They can also be called "General Purpose GPUs" (GPGPUs), but everyone just says "GPU".</p>
+        </div>
+      </div>
 
-      <h3>Infiniband network interface</h3>
-      <p>Infiniband is a high-bandwidth, low-latency network protocol. Both of these properties are important: if multiple compute nodes are communicating, latency (the time between a message being sent and being received) can be a significant bottleneck. When using a connection with low enough latency, well-optimized code can essentially allow one computer to access another computer's memory (not exactly, but something like that).</p>
-      <p>Note the Infiniband interfaces are located close to the GPUs.</p>
+      <div class="spec-topic">
+        <button class="part-thumb" type="button" data-full="assets/img/parts/infiniband-placeholder.svg" data-caption="InfiniBand network interface (placeholder — real dgx04 photo coming soon)">
+          <img src="assets/img/parts/infiniband-placeholder.svg" alt="Illustration of an InfiniBand cable and port">
+        </button>
+        <div class="spec-topic-body">
+          <h3>Infiniband network interface</h3>
+          <p>Infiniband is a high-bandwidth, low-latency network protocol. Both of these properties are important: if multiple compute nodes are communicating, latency (the time between a message being sent and being received) can be a significant bottleneck. When using a connection with low enough latency, well-optimized code can essentially allow one computer to access another computer's memory (not exactly, but something like that).</p>
+          <p>Note the Infiniband interfaces are located close to the GPUs.</p>
+        </div>
+      </div>
     </div>
 
     <div class="card spec-card">
-      <h3>Ethernet network interface</h3>
-      <p>This server has two normal Ethernet network connections. Ethernet is standard and efficient, but for high-performance computation the overhead of the operating system handling the network stack is too much and Infiniband is used instead. We have configured our cluster so that all regular network traffic goes over Infiniband, and Ethernet is mainly used for booting up.</p>
+      <div class="spec-topic">
+        <button class="part-thumb" type="button" data-full="assets/img/parts/ethernet.jpg" data-caption="Ethernet network interface (placeholder — real dgx04 photo coming soon)">
+          <img src="assets/img/parts/ethernet.jpg" alt="A close-up of an RJ45 Ethernet connector" loading="lazy">
+        </button>
+        <div class="spec-topic-body">
+          <h3>Ethernet network interface</h3>
+          <p>This server has two normal Ethernet network connections. Ethernet is standard and efficient, but for high-performance computation the overhead of the operating system handling the network stack is too much and Infiniband is used instead. We have configured our cluster so that all regular network traffic goes over Infiniband, and Ethernet is mainly used for booting up.</p>
+        </div>
+      </div>
 
-      <h3>Management network interface</h3>
-      <p>There's a separate network interface for management - this connects to a dedicated onboard management computer that controls the main computer's hardware. This allows us to reboot, power cycle, adjust the boot parameters, and see the raw operating system console for maintenance without having to go to the machine room. With hundreds of nodes in Triton, multiple nodes need rebooting or fixing per day.</p>
+      <div class="spec-topic">
+        <button class="part-thumb" type="button" data-full="assets/img/parts/management-network-placeholder.svg" data-caption="Management network interface (placeholder — real dgx04 photo coming soon)">
+          <img src="assets/img/parts/management-network-placeholder.svg" alt="Illustration of a server management network port">
+        </button>
+        <div class="spec-topic-body">
+          <h3>Management network interface</h3>
+          <p>There's a separate network interface for management - this connects to a dedicated onboard management computer that controls the main computer's hardware. This allows us to reboot, power cycle, adjust the boot parameters, and see the raw operating system console for maintenance without having to go to the machine room. With hundreds of nodes in Triton, multiple nodes need rebooting or fixing per day.</p>
+        </div>
+      </div>
 
-      <h3>Standard computer connectors</h3>
-      <p>You can see some standard connectors back here, like VGA (monitor) and USB (keyboard, mouse). These are used for emergency local access when the machine is so stuck that no other network connections work. They aren't connected to anything in normal operation - all daily management is done over the network, even normal crash recovery.</p>
+      <div class="spec-topic">
+        <button class="part-thumb" type="button" data-full="assets/img/parts/connectors.jpg" data-caption="Standard computer connectors (placeholder — real dgx04 photo coming soon)">
+          <img src="assets/img/parts/connectors.jpg" alt="Rear panel of rack servers showing VGA, PS/2, and USB ports" loading="lazy">
+        </button>
+        <div class="spec-topic-body">
+          <h3>Standard computer connectors</h3>
+          <p>You can see some standard connectors back here, like VGA (monitor) and USB (keyboard, mouse). These are used for emergency local access when the machine is so stuck that no other network connections work. They aren't connected to anything in normal operation - all daily management is done over the network, even normal crash recovery.</p>
+        </div>
+      </div>
     </div>
 
     <div class="card spec-card">
-      <h3>Hard drives</h3>
-      <p>The DGX-1 was sold with 8TB of SSD disk space across 4 disks. Machine learning training requires a lot of data, and one of the bottlenecks can be getting it from the storage to the GPUs. Fast SSDs on the same computer allow huge data transfer rates and random access for randomizing the order for training purposes.</p>
-      <p>We are very careful about data security. All hard drives were securely erased before being taken for this display.</p>
+      <div class="spec-topic">
+        <button class="part-thumb" type="button" data-full="assets/img/parts/hard-drives.jpg" data-caption="Hard drives (placeholder — real dgx04 photo coming soon)">
+          <img src="assets/img/parts/hard-drives.jpg" alt="A 2.5-inch hard disk drive" loading="lazy">
+        </button>
+        <div class="spec-topic-body">
+          <h3>Hard drives</h3>
+          <p>The DGX-1 was sold with 8TB of SSD disk space across 4 disks. Machine learning training requires a lot of data, and one of the bottlenecks can be getting it from the storage to the GPUs. Fast SSDs on the same computer allow huge data transfer rates and random access for randomizing the order for training purposes.</p>
+          <p>We are very careful about data security. All hard drives were securely erased before being taken for this display.</p>
+        </div>
+      </div>
 
-      <h3>Hard drive cages</h3>
-      <p>The front of the server has 20 hard drive slots. They are hot-swappable. With RAID (redundant arrays of independent disks) setup, data is stored with redundancy across disks. If a disk breaks, it can be removed, replaced, and the disk array rebuilt (data copied back to the new disk) to restore redundancy.</p>
+      <div class="spec-topic">
+        <button class="part-thumb" type="button" data-full="assets/img/parts/drive-cages.jpg" data-caption="Hard drive cages (placeholder — real dgx04 photo coming soon)">
+          <img src="assets/img/parts/drive-cages.jpg" alt="Front of a server showing rows of hot-swap hard drive bays" loading="lazy">
+        </button>
+        <div class="spec-topic-body">
+          <h3>Hard drive cages</h3>
+          <p>The front of the server has 20 hard drive slots. They are hot-swappable. With RAID (redundant arrays of independent disks) setup, data is stored with redundancy across disks. If a disk breaks, it can be removed, replaced, and the disk array rebuilt (data copied back to the new disk) to restore redundancy.</p>
+        </div>
+      </div>
 
-      <h3>4x power supplies</h3>
-      <p>The DGX-1 had 4 x 1600W power supplies, with a max power usage of 3200W. Power supplies are redundant: if one broke, you could remove it and replace it without turning off the computer. If you ran this in your home, each power supply would have to be plugged into a separate circuit.</p>
-      <p>In Finland, waste heat is often used for district heating. In 2026, Triton will move to a facility that will recover waste heat for use in Otaniemi.</p>
+      <div class="spec-topic">
+        <button class="part-thumb" type="button" data-full="assets/img/parts/power-supplies.jpg" data-caption="4x power supplies (placeholder — real dgx04 photo coming soon)">
+          <img src="assets/img/parts/power-supplies.jpg" alt="A computer power supply unit" loading="lazy">
+        </button>
+        <div class="spec-topic-body">
+          <h3>4x power supplies</h3>
+          <p>The DGX-1 had 4 x 1600W power supplies, with a max power usage of 3200W. Power supplies are redundant: if one broke, you could remove it and replace it without turning off the computer. If you ran this in your home, each power supply would have to be plugged into a separate circuit.</p>
+          <p>In Finland, waste heat is often used for district heating. In 2026, Triton will move to a facility that will recover waste heat for use in Otaniemi.</p>
+        </div>
+      </div>
     </div>
 
     <div class="card spec-card">
@@ -209,8 +293,15 @@
   </div>
 </section>
 
+<div id="lightbox" class="lightbox" hidden>
+  <button class="lightbox-close" type="button" aria-label="Close">&times;</button>
+  <img id="lightbox-img" src="" alt="">
+  <p id="lightbox-caption"></p>
+</div>
+
 <script src="js/background.js"></script>
 <script src="js/config.js"></script>
 <script src="js/nav.js"></script>
+<script src="js/lightbox.js"></script>
 </body>
 </html>

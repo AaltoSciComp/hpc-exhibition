@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Placeholder illustration of a server management network port">
+  <rect width="240" height="240" rx="18" fill="#eef0f6"/>
+  <rect x="60" y="60" width="120" height="84" rx="8" fill="#ffffff" stroke="#1a1a2e" stroke-width="4"/>
+  <rect x="76" y="76" width="88" height="10" rx="2" fill="#1a1a2e"/>
+  <rect x="76" y="94" width="88" height="10" rx="2" fill="#1a1a2e"/>
+  <rect x="76" y="112" width="52" height="10" rx="2" fill="#1a1a2e"/>
+  <circle cx="150" cy="117" r="7" fill="#ff8a3d"/>
+  <g transform="translate(150,170)">
+    <circle r="20" fill="#ffffff" stroke="#ff8a3d" stroke-width="4"/>
+    <path d="M0 -12 L3.5 -8 L8 -9 L8 -4 L12 -1 L9 3 L11 7.5 L6.5 7 L4 11 L0 8 L-4 11 L-6.5 7 L-11 7.5 L-9 3 L-12 -1 L-8 -4 L-8 -9 L-3.5 -8 Z" fill="#ff8a3d"/>
+    <circle r="5" fill="#ffffff"/>
+  </g>
+  <text x="120" y="206" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="15" font-weight="600" fill="#3a3a52">Management port</text>
+  <text x="120" y="226" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="12" fill="#3a3a52">photo coming soon</text>
+</svg>
